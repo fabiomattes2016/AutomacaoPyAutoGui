@@ -17,8 +17,8 @@ df = pd.read_excel(caminho_arquivo, dtype={
 lista_produtos = df.values.tolist()
 
 nome_sistema = "Eagle Gestão"
-usuario = "fabiomattes"
-senha = "Vitor2023!"
+usuario = ""
+senha = ""
 
 engine = pyttsx3.init()
 engine.setProperty('rate', 150)
